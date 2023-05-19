@@ -10,7 +10,7 @@ db.authenticate()
     .catch( error => console.log(error) );
 
 // Definir puerto
-const port = process.env.DB_PORT || 4000;
+const port = process.env.PORT || 4000;
 
 // Habilitar PUG
 app.set('view engine', 'pug');
